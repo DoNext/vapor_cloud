@@ -118,17 +118,17 @@ Proxy:
 
 
 # 配置开始
-- name: "V2ray节点的主机测试"
+- name: "V2ray 高配"
   type: vmess
-  server: v2rayssr.com
+  server: next.luxe
   port: 443
-  uuid: 5b8098e0-c95d-4c74-b5d5-4a330969c8cb
+  uuid: dd6097d1-852d-40c1-ab79-f50a3a3cc1f5
   alterId: 2
   cipher: auto
   tls: true
   network: ws
-  ws-path: /v2rayssrcom/
-  Host: v2rayssr.com
+  ws-path: /c236997963e/
+  Host: next.luxe
 
 - name: "Trojan节点的主机测试"
   type: trojan
