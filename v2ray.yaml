@@ -118,11 +118,11 @@ proxies:
 
 
 # 配置开始
-- name: "Trojan节点"
+- name: "Trojan节点-NJ512"
   type: trojan
-  server: ww6.next.luxe
+  server: next.luxe
   port: 443
-  password: LMRbsElM
+  password: TNdmbSVa
 
  
 ###############################################################配置分割线
