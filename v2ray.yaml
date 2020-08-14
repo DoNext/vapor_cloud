@@ -120,8 +120,8 @@ proxies:
 # 配置开始
 - name: "Trojan节点"
   type: trojan
-  server: www.next.luxe
-  port: 443
+  server: next.luxe
+  port:443
   password: TNdmbSVa
 
  
