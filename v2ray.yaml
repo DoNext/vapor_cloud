@@ -118,11 +118,17 @@ proxies:
 
 
 # 配置开始
-- name: "Trojan节点"
-  type: trojan
-  server: next.luxe
+- name: "V2ray节点"
+  type: vmess
+  server: nj5d.next.luxe
   port: 443
-  password: TNdmbSVa
+  uuid: 347c2661-bd0b-48fd-b59d-bc62f04fe4da
+  alterId: 2
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /07ded54c4/
+  Host: nj5d.next.luxe
 
  
 ###############################################################配置分割线
