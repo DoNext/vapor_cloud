@@ -122,12 +122,12 @@ proxies:
   type: vmess
   server: nj5d.next.luxe
   port: 443
-  uuid: 347c2661-bd0b-48fd-b59d-bc62f04fe4da
+  uuid: aa029bd0-6db7-4591-8898-ffd28546e14f
   alterId: 2
   cipher: auto
   tls: true
   network: ws
-  ws-path: /07ded54c4/
+  ws-path: /0b21dc3/ 
   Host: nj5d.next.luxe
 
  
