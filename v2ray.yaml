@@ -118,17 +118,12 @@ proxies:
 
 
 # 配置开始
-- name: "V2ray节点"
-  type: vmess
-  server: nj5d.next.luxe
+# Trojan 的配置
+- name: "trojan"
+  type: trojan
+  server: next.luxe
   port: 443
-  uuid: aa029bd0-6db7-4591-8898-ffd28546e14f
-  alterId: 2
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /0b21dc3/ 
-  Host: nj5d.next.luxe
+  password: Next@801850
 
  
 ###############################################################配置分割线
@@ -140,7 +135,7 @@ proxy-groups:
 - name: "自动节点选择"
   type: url-test
   proxies:
-    - "V2ray节点"
+    - "trojan"
   url: 'http://www.gstatic.com/generate_204'
   interval: 300
 
@@ -149,7 +144,7 @@ proxy-groups:
   type: select
   proxies:
     - "自动节点选择"
-    - "V2ray节点"
+    - "trojan"
 # 白名单模式 PROXY，黑名单模式 DIRECT
 - name: "Final"
   type: select
@@ -167,13 +162,13 @@ proxy-groups:
   type: select
   proxies:
     - "PROXY"
-    - "V2ray节点"
+    - "trojan"
 # 大陆流媒体面向港澳台限定服务
 - name: "HKMTMedia"
   type: select
   proxies:
     - "DIRECT"
-    - "V2ray节点"
+    - "trojan"
 # 运营商及声名狼藉网站劫持
 - name: "Hijacking"
   type: select
