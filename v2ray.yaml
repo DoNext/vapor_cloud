@@ -117,19 +117,18 @@ proxies:
 
 
 
-# 配置开始	# 配置开始
-- name: "V2ray节点"	# Trojan 的配置
-  type: vmess	- name: "trojan"
-  server: nj5d.next.luxe	  type: trojan
-  server: next.luxe
-  port: 443	  port: 443
-  uuid: aa029bd0-6db7-4591-8898-ffd28546e14f	  password: Next@801850
+# 配置开始
+- name: "V2ray节点"
+  type: vmess
+  server: www.next.luxe
+  port: 443
+  uuid: 66372f29-c2bc-437c-b7eb-388b5b68d192
   alterId: 2	
-  cipher: auto	
+  cipher: auto
   tls: true	
   network: ws	
-  ws-path: /0b21dc3/ 	
-  Host: nj5d.next.luxe
+  ws-path: /f28c7/
+  Host: www.next.luxe
 
  
 ###############################################################配置分割线
