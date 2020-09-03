@@ -115,12 +115,18 @@ proxies:
 #  #   - http/1.1
 #  # skip-cert-verify: true
 
-# Trojan 的配置
+# 配置开始
 - name: "V2ray节点"
-  type: trojan
-  server: next.luxe
+  type: vmess
+  server: v.next.luxe
   port: 443
-  password: Next801850
+  uuid: 342ea346-2025-4924-ab02-7db71310854b
+  alterId: 2    
+  cipher: auto
+  tls: true    
+  network: ws    
+  ws-path: /6b18e9dc/ 
+  Host: v.next.luxe
 
 
  
