@@ -118,15 +118,15 @@ proxies:
 # 配置开始
 - name: "V2ray节点"
   type: vmess
-  server: v.next.luxe
+  server: next.luxe
   port: 443
-  uuid: 342ea346-2025-4924-ab02-7db71310854b
+  uuid: 2f873789-18ae-4597-abbf-a8c77f64beff
   alterId: 2    
   cipher: auto
   tls: true    
   network: ws    
-  ws-path: /6b18e9dc/ 
-  Host: v.next.luxe
+  ws-path: /f2c1cac/ 
+  Host: next.luxe
 
 
  
